@@ -14,7 +14,7 @@ embulk gem install embulk-filter-script
 * **drop_columns** drop column names (array)
 
 external ruby script 
-```
+```ruby
 def filter(record)
   # This method implements the filtering logic
   record
@@ -33,7 +33,7 @@ filters:
 ```
 
 example.rb
-```
+```ruby
 def filter(record)
   case record["code"].to_i
   when 100..200
