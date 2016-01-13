@@ -2,7 +2,7 @@
 
 Embulk filter plugin to external ruby script.
 
-[![Gem](https://img.shields.io/gem/dt/embulk-filter-script.svg)]()
+[![Gem](https://img.shields.io/gem/dt/embulk-filter-script.svg)](https://rubygems.org/gems/embulk-filter-script)
 
 ## Install
 
