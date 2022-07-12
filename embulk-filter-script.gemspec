@@ -12,6 +12,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_development_dependency 'embulk', '~> 0.7.9'
-  s.add_development_dependency 'bundler', '~> 2.1.0'
+  s.add_development_dependency 'bundler', '~> 2.2.33'
   s.add_development_dependency 'rake', '~> 12.3.3'
 end
